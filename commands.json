@@ -1,0 +1,33 @@
+[
+  {
+    "name": "gem",
+    "description": "Geminiとの新しい会話セッションを開始します。",
+    "type": 1,
+    "options": [
+      {
+        "name": "message",
+        "description": "最初のメッセージを入力してください。",
+        "type": 3,
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "con",
+    "description": "現在の会話セッションにメッセージを追加します。",
+    "type": 1,
+    "options": [
+      {
+        "name": "message",
+        "description": "Geminiに送信するメッセージを入力してください。",
+        "type": 3,
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "end",
+    "description": "現在の会話セッションを終了します。",
+    "type": 1
+  }
+]
