@@ -1,0 +1,36 @@
+/gem
+{
+  "name": "gem",
+  "type": 1,
+  "description": "Geminiとの会話を開始する",
+  "options": [
+    {
+      "name": "message",
+      "description": "送信するメッセージ",
+      "type": 3,
+      "required": true
+    }
+  ]
+}
+
+/con
+{
+  "name": "con",
+  "type": 1,
+  "description": "Geminiとの会話を続ける",
+  "options": [
+    {
+      "name": "message",
+      "description": "送信するメッセージ",
+      "type": 3,
+      "required": true
+    }
+  ]
+}
+
+/end
+{
+  "name": "end",
+  "type": 1,
+  "description": "会話セッションを終了する"
+}
