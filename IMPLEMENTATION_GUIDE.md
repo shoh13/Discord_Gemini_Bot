@@ -117,7 +117,7 @@ function checkConfiguration() {
 // 2. 実行者: 自分
 // 3. アクセス: 全員
 // 4. デプロイ → URL取得
-
+'https://script.google.com/macros/s/AKfycby6yHwMnlfmjAp75co9rSFghO1hx1VHYgXYW0wUtGqcfJDN6k_qq8YUYwrv41hrJ1Hq/exec'
 // Discord Developer Portal → General Information → Interactions Endpoint URL
 // 取得したWebhook URLを設定
 ```
