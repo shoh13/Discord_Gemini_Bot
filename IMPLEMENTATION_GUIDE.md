@@ -96,11 +96,11 @@
 ```javascript
 // Google Apps Script → 設定 → スクリプト プロパティ
 const requiredProperties = {
-  GEMINI_API_KEY: 'YOUR_GEMINI_API_KEY',
-  DISCORD_BOT_TOKEN: 'YOUR_DISCORD_BOT_TOKEN', 
-  DISCORD_APPLICATION_ID: 'YOUR_DISCORD_APPLICATION_ID',
-  SPREADSHEET_ID: 'YOUR_SPREADSHEET_ID',
-  ADMIN_USER_IDS: 'YOUR_DISCORD_USER_ID_1,YOUR_DISCORD_USER_ID_2'
+  GEMINI_API_KEY: 'AIzaSyClUqt90A8fSKvfRIhG16I_eYYZfg4_AWA',
+  DISCORD_BOT_TOKEN: 'MTM4MjM4NTY1ODg5MDU1NTUyMg.G2BUGi.IFGaOTxo6W_VOEW26i5ykVxQnkKUsCTs3q0nTA', 
+  DISCORD_APPLICATION_ID: '1382385658890555522',
+  SPREADSHEET_ID: '1uE9DnOP0XaV23C3D_T4tZ9zvbgD4Om5dgEluLoQS_QA',
+  ADMIN_USER_IDS: '793414166094413824'
 };
 
 // 設定確認用関数実行
@@ -117,7 +117,7 @@ function checkConfiguration() {
 // 2. 実行者: 自分
 // 3. アクセス: 全員
 // 4. デプロイ → URL取得
-
+'https://script.google.com/macros/s/AKfycby6yHwMnlfmjAp75co9rSFghO1hx1VHYgXYW0wUtGqcfJDN6k_qq8YUYwrv41hrJ1Hq/exec'
 // Discord Developer Portal → General Information → Interactions Endpoint URL
 // 取得したWebhook URLを設定
 ```
